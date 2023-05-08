@@ -1,0 +1,9 @@
+<?php
+use Drupal\Core\Form\FormStateInterface;
+
+function uppercase_service_form_alter(&$form,FormStateInterface $form_state, $form_id) {
+
+    $data = \Drupal::service('test_uppercase')->upperCase("drupal site");
+    // print_r($data);
+    // exit;
+}

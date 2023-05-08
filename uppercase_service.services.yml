@@ -1,0 +1,3 @@
+services:
+  test_uppercase:
+    class : Drupal\uppercase_service\UpperCase

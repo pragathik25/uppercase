@@ -1,0 +1,7 @@
+name: 'Uppercase Service'
+description: 'uppercase service description'
+type: module
+core_version_requirement: ^9 || ^10
+version: 9.x-1.0
+
+
